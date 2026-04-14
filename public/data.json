@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Arafat Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "arafat.hossain@gmail.com",
+    "days_since_contact": "18d ago",
+    "status": "Overdue",
+    "tags": ["UNIVERSITY"],
+    "bio": "Met during CSE at university. ",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "nusrat.jahan.bd@gmail.com",
+    "days_since_contact": "10d ago",
+    "status": "Almost Due",
+    "tags": ["SCHOOL"],
+    "bio": "School friend who helped me a lot with math and English.",
+    "goal": 12,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+    "email": "tanvir.dev@gmail.com",
+    "days_since_contact": "5d ago",
+    "status": "On-Track",
+    "tags": ["DEVELOPER"],
+    "bio": "We are building web projects together and learning React and Next.js side by side.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "name": "Sadia Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sadia.rahman@gmail.com",
+    "days_since_contact": "20d ago",
+    "status": "Overdue",
+    "tags": [ "NEIGHBOR"],
+    "bio": "Grew up in the same neighborhood.",
+    "goal": 15,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 5,
+    "name": "Mahmudul Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/21.jpg",
+    "email": "mahmudul.hasan@gmail.com",
+    "days_since_contact": "11d ago",
+    "status": "Almost Due",
+    "tags": ["GYM"],
+    "bio": "Met at the gym.",
+    "goal": 12,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 6,
+    "name": "Farzana Akter",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "farzana.akter@gmail.com",
+    "days_since_contact": "3d ago",
+    "status": "On-Track",
+    "tags": [ "DESIGN"],
+    "bio": "Connected through a UI/UX design community. ",
+    "goal": 10,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 7,
+    "name": "Rakib Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "rakib.chowdhury@gmail.com",
+    "days_since_contact": "16d ago",
+    "status": "Overdue",
+    "tags": [ "MENTOR"],
+    "bio": "Senior who guided me about startups and career paths in tech.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 8,
+    "name": "Jannatul Ferdous",
+    "picture": "https://randomuser.me/api/portraits/women/60.jpg",
+    "email": "jannatul.ferdous@gmail.com",
+    "days_since_contact": "7d ago",
+    "status": "On-Track",
+    "tags": ["IELTS"],
+    "bio": "We are preparing for IELTS together and practice speaking regularly.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  }
+]

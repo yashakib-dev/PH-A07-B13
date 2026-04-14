@@ -1,12 +1,11 @@
-import React from 'react';
+import Friends from "@/components/homepage/Friends";
+import HomeState from "@/components/homepage/HomeState";
 
 const page = () => {
   return (
     <div>
-      <h2 className='text-6xl'>
-        Hello World!
-      </h2>
-      <button className='btn btn-primary'>Click Me</button>
+     <HomeState></HomeState>
+     <Friends></Friends>
     </div>
   );
 };

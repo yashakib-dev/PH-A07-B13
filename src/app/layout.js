@@ -1,5 +1,7 @@
 import { Geist } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
  
 
 const geist = Geist({
@@ -17,9 +19,13 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en" data-theme="light"
-      className={`${geist.className}  h-full antialiased`}
+      className={`${geist.className}  h-full antialiased bg-base-200`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Navbar></Navbar>
+        {children}
+        <Footer></Footer>
+        </body>
     </html>
   );
 }
