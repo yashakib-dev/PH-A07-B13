@@ -13,7 +13,7 @@ const HomeState = () => {
       </p>
       <button className="btn bg-[#244D3F] text-white"><TiPlus />Add a Friend</button>
 
-        <div className="lg:grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-6 border-b pt-2 border-black/10 py-12">
+        <div className="lg:space-y-0 space-y-6 lg:grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-6 border-b pt-2 border-black/10 py-12">
             <div className="text-center bg-base-100 rounded-xl border-black/10 border py-10 px-10 shadow-sm">
                 <p className="text-[#244D3F] font-semibold text-3xl">10</p>
                 <p className="mt-2 text-[#64748B]">Total Friends</p>

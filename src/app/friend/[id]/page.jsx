@@ -30,9 +30,9 @@ const FriendDetailsPage = async ({ params }) => {
   } = friend;
 
   return (
-    <div className="lg:flex lg:w-[70%] w-[95%] mx-auto   gap-6 ">
+    <div className="lg:flex lg:w-[70%] w-[90%] mx-auto   gap-6 ">
       <div className="text-center lg:w-full w-[95%] mx-auto space-y-5 mb-20 mt-10 ">
-        <div className=" bg-base-100 p-10 border-black/10 border rounded-2xl">
+        <div className=" bg-base-100 p-10 border-black/10  border rounded-2xl">
           <div>
             <Image
               src={picture}
@@ -90,9 +90,9 @@ const FriendDetailsPage = async ({ params }) => {
 
 
 
-      <div className="lg:w-full w-[95%] mx-auto">
+      <div className="lg:w-full  w-[95%] mx-auto">
 
-        <div className="lg:flex  gap-6 my-10">
+        <div className="lg:flex lg:space-y-0 space-y-8 gap-6 my-10">
           <div className="text-center bg-base-100 rounded-xl border-black/10 border py-10 px-10 shadow-sm">
             {" "}
             <span className="text-[#244D3F] text-xl font-semibold">
@@ -126,7 +126,7 @@ const FriendDetailsPage = async ({ params }) => {
         </div>
 
 
-        <div className=" bg-base-100 mt-8 rounded-xl border-black/10 border py-10 px-10 shadow-sm">
+        <div className=" bg-base-100 mt-8 mb-8 rounded-xl border-black/10 border py-10 px-10 shadow-sm">
           <p className="text-[#244D3F] font-bold text-2xl mb-2 ">
             Quick Check-In
           </p>
