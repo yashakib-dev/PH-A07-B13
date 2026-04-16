@@ -13,12 +13,12 @@ const statsPage = () => {
         const data = [
         {name: "Call", value: callData.length, fill:"#244D3F"},
         {name: "Text", value: textData.length, fill:"#7E35E1"},
-        {name: "Video Call", value: videoData.length, fill:"#37A163"}
+        {name: "Video", value: videoData.length, fill:"#37A163"}
     ]
     
   return (
     <div className="container mx-auto my-20 lg:w-full w-[85%]">
-        <h2 className="text-xl lg:text-2xl font-medium text-[#244D3F]">By Interaction Type</h2>
+        <h2 className="text-xl lg:text-2xl font-medium text-[#244D3F]">Friendship Analytics</h2>
         <PieChart
       style={{
         width: "100%",
