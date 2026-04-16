@@ -1,10 +1,9 @@
 import React from "react";
-import { FiPlus } from "react-icons/fi";
 import { TiPlus } from "react-icons/ti";
 
 const HomeState = () => {
   return (
-    <div className="space-y-6 mt-20 text-center container  mx-auto">
+    <div className="space-y-6 mt-20 text-center container lg:w-full w-[85%] mx-auto">
       <h2 className="text-5xl  font-bold ">
         Friends to keep close in your life
       </h2>
