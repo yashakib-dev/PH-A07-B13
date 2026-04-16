@@ -31,7 +31,7 @@ const timelinePage = () => {
           <option>Filter timeline</option>
           <option value="Call">Call</option>
           <option value="Text">Text</option>
-          <option value="Video Call">Video Call</option>
+          <option value="Video">Video Call</option>
         </select>
       </div>
       {filteredData.length === 0 ? (

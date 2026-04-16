@@ -4,7 +4,7 @@ import { PiArchiveLight, PiBellSimpleZBold } from "react-icons/pi";
 import { RiDeleteBinLine } from "react-icons/ri";
 
 const friendsPromise = async () => {
-  const res = await fetch("http://localhost:3000/data.json");
+  const res = await fetch("https://ph-a07-b13.vercel.app/data.json");
   const friends = await res.json();
   return friends;
 };

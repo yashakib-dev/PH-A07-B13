@@ -6,7 +6,7 @@ const useFriends = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("http://localhost:3000/data.json");
+      const res = await fetch("https://ph-a07-b13.vercel.app/data.json");
       const data = await res.json();
      
 
