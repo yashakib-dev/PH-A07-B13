@@ -8,7 +8,7 @@
     "status": "Overdue",
     "tags": ["UNIVERSITY"],
     "bio": "Met during CSE at university. ",
-    "goal": 14,
+    "goal": 24,
     "next_due_date": "2026-03-25"
   },
   {
@@ -44,7 +44,7 @@
     "status": "Overdue",
     "tags": [ "NEIGHBOR"],
     "bio": "Grew up in the same neighborhood.",
-    "goal": 15,
+    "goal": 25,
     "next_due_date": "2026-03-28"
   },
   {
@@ -80,7 +80,7 @@
     "status": "Overdue",
     "tags": [ "MENTOR"],
     "bio": "Senior who guided me about startups and career paths in tech.",
-    "goal": 14,
+    "goal": 24,
     "next_due_date": "2026-04-01"
   },
   {

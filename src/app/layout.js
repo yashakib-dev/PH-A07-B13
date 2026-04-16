@@ -2,6 +2,8 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
+import Providers from "./lib/providers";
+import { ToastContainer } from "react-toastify";
  
 
 const geist = Geist({
@@ -22,9 +24,12 @@ export default function RootLayout({ children }) {
       className={`${geist.className}  h-full antialiased bg-base-200`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar></Navbar>
-        {children}
-        <Footer></Footer>
+        <Providers>
+          <Navbar></Navbar>
+           {children}
+           <Footer></Footer>
+        </Providers>
+        <ToastContainer />
         </body>
     </html>
   );

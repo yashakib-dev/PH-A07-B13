@@ -7,7 +7,7 @@ const Friends = () => {
   const { friends, loading } = useFriends();
 
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto lg:w-full w-[85%] ">
       <h2 className="text-2xl font-semibold mt-10">Your Friends</h2>
 
       {loading ? (
