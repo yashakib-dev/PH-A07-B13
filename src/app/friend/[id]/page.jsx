@@ -52,7 +52,7 @@ const FriendDetailsPage = async ({ params }) => {
 
             <div>
               <span
-                className={`${status === "Overdue" ? ("bg-[#EF4444]" ? "bg-[#244D3F]" : "") : "bg-[#EFAD44]"} text-white badge border-0 rounded-2xl p-3`}
+                className={`${friend.status === "Overdue" ? "bg-[#EF4444]":friend.status === "On-Track" ? "bg-[#244D3F]" : "bg-[#EFAD44]"} text-white badge border-0 rounded-2xl p-3`}
               >
                 {status}
               </span>
