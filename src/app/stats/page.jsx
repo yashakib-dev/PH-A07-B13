@@ -18,10 +18,10 @@ const statsPage = () => {
     
   return (
     <div>
-      <h2 className="text-5xl mt-20 container mx-auto font-bold">Friendship Analytics </h2>
+      <h2 className="lg:text-5xl text-3xl mt-20 lg:w-full w-[85%] container mx-auto font-bold">Friendship Analytics </h2>
       {
         friendsData.length === 0 ? (
-        <p className="text-center text-2xl border border-black/10 rounded-xl p-10 container mx-auto h-30 mb-54 my-10 text-gray-500">
+        <p className="text-center lg:w-full w-[85%] text-xl border border-black/10 rounded-xl p-10 container mx-auto h-30 mb-54 my-10 text-gray-500">
           No stats found!
         </p>
       ) : (
