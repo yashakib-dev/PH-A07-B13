@@ -6,7 +6,7 @@ import { TbBrandInstagramFilled } from "react-icons/tb";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-white rounded p-10">
+      <footer className="footer footer-horizontal footer-center bg-[#244D3F] rounded text-white  p-10">
        
        <h2 className="lg:text-6xl text-5xl font-bold">KeenKeeper</h2>
        <p className="text-white/70 ">Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>   

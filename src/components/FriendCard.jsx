@@ -17,7 +17,7 @@ const FriendCard = ({friend}) => {
              <span className='badge  bg-[#CBFADB] border-0 rounded-2xl mb-3 mt-3 p-3'>{friend.tags}</span>
 
              <div>
-                <span className={`${friend.status === "Overdue" ? "bg-[#EF4444]"? "bg-[#244D3F]" :"" : "bg-[#EFAD44]"} text-white badge border-0 rounded-2xl p-3`}>{friend.status}</span>
+                <span className={`${friend.status === "Overdue" ? "bg-[#EF4444]":friend.status === "On-Track" ? "bg-[#244D3F]" : "bg-[#EFAD44]"} text-white badge border-0 rounded-2xl p-3`}>{friend.status}</span>
              </div>
         </Link>
         
